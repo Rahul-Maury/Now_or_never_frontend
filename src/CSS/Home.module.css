@@ -1,0 +1,61 @@
+.stdBody {
+    display: inline-block;
+    height: 99vh;
+    width: 99vw;
+    background: #ffffff;
+    border: 4px solid #e2e5eb;
+    box-sizing: border-box;
+  }
+  .subHeader{
+        display: flex;
+        justify-content: space-between;
+        padding:30px;
+
+  }
+  .tableWrapper{
+    padding: 30px;
+  }
+  .contentTable{
+    border-collapse:collapse;
+    width: 100%;
+   border-radius: 5px 5px 0 0;
+    margin: 25px 0px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .contentTable thead tr {
+    background-color: #a5c8f7;
+    color: #3d2ba1;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .contentTable th {
+    padding: 12px 15px;
+  }
+  .contentTable td {
+    padding: 18px 15px;
+  }
+  
+  .contentTable tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .contentTable tbody tr:hover {
+    background-color: #f1f4f8;
+  }
+  
+  
+  .btn{
+    padding:10px 20px;
+    background-color: #1e7be685;
+    color:white;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+  }
